@@ -1,0 +1,30 @@
+
+.dashboard{
+    /* position: relative; */
+}
+
+.dashboard_sidebar{
+    height: 100vh;
+}
+
+
+
+.dashboard_earnings{
+    position: absolute;
+    top: 9rem;
+    left: 9.5rem;
+    z-index:15;
+}
+.dashboard_earnings_Earnings{
+    position: absolute;
+
+}
+
+.dashboard_activity{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+
+

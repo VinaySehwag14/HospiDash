@@ -1,0 +1,118 @@
+.chart{
+    margin-top: 5rem;
+    width: 52rem;
+    margin-left: 5rem;
+    border: 1px solid #A9A5BF;
+    position: absolute;
+}
+
+.chartUpper_left_sec{
+    color: #A9A5BF;
+}
+
+.chartUpper{
+    display: flex;
+    padding: 2rem 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A9A5BF;
+}
+
+.chartUpper_Icon{
+    color: #A9A5BF;
+
+}
+
+.chartUpper_section{
+    margin-right: 2rem;
+}
+
+.schedule_toggle_chart{
+    margin-right: 0.5rem;
+}
+
+.switch_chart {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+  }
+  
+  .switch_chart input {display:none;}
+  
+  .slider_chart {
+    position: absolute;
+    cursor: pointer;
+    top: 1px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+     border-radius: 34px;
+     border: 2px solid grey;
+  }
+  
+  .slider_chart:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    top: 2px;
+    width: 16px;
+    left: -1px;
+    bottom: 4px;
+    background-color: #8DC63F;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider_chart {
+    color: #2ab934;
+    background-color: #fff;
+  }
+  
+  input:focus + .slider_chart {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider_chart:before {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(26px);
+    transform: translateX(29px);
+  }
+  
+  .slider_chart:after
+  {
+   content:'';
+   color: white;
+   display: block;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 60%;
+   font-size: 12px;
+   font-family: Verdana, sans-serif;
+  }
+  
+  input:checked + .slider_chart:after
+  {  
+    content:'';
+   font-size: 12px;
+   display: block;
+
+    top: 50%;
+   left: 40%;
+  }
+  /* toggle code ended */
+
+  .chartUpper_toggle_section{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .chartUpper_Icon{
+    margin-left: 2rem
+  }

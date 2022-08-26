@@ -1,0 +1,85 @@
+.login{
+    display: flex;
+}
+
+.left{
+flex: 1;
+background-color: #F0F4FC;
+display: flex;
+flex-direction:column;
+justify-content: center;
+height: 100vh;
+}
+.heading{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color:  #2D436E;
+
+}
+
+.heading h2{
+    margin-bottom: 1.8rem;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.right_heading{
+    padding-bottom: 2rem;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_heading{
+    color: #2D436E;
+    margin-right: 4rem;
+}
+
+
+
+.right_form_field{
+    padding:0.8rem;
+    padding-left:1.2rem ;
+    padding-right: 8rem;
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    border-color: #F0F4FC;
+}
+
+.right_form_input_src{
+    padding:0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.right_form_btn_src{
+    background-color:#FC6964;
+    color: #fff;
+    border-color:#FC6964 ;
+   padding: 1rem;
+   border-radius: 10px;
+   margin-top: 2rem;
+   font-weight: 700;
+   font-size: 1rem;
+   padding-left: 7.5rem;
+    padding-right: 8rem;
+}
+

@@ -1,0 +1,24 @@
+.appointmentDetails{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* max-width: 50rem; */
+
+    background-color: #F0F6FE
+}
+.appointInfo{
+    margin-left: 5rem ;
+    color:#546082 ;
+
+}
+
+.appointInfo > p {
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+
+}
+
+.appointInfo:nth-child(1){
+    margin-left: 4rem ;
+
+}

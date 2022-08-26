@@ -1,0 +1,32 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #203765;
+    width: 4rem;
+    height: (25vh-100vh);
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar_icons{
+    padding: 1rem;
+}
+.sidebar_icons_special{
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    background-color: rgba(255, 255, 255, 0.152);
+border-right:solid 8px rgb(255, 78, 78);
+}
+
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
+
+}
+
+.userImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

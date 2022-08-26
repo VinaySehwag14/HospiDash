@@ -1,0 +1,55 @@
+.earnings{
+    display: flex;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    align-items: center;
+    width: 50rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 6px 10px -3px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 6px 10px -3px rgba(0,0,0,0.31);
+    box-shadow: 0px 6px 10px -3px rgba(0,0,0,0.31);
+    z-index: 999;
+    position: relative;
+}
+
+.earnings_left{
+    margin-right: 30rem;
+    position: relative;
+}
+
+.right_form_input{
+    padding:1rem;
+    padding-right: 5rem;
+    margin-bottom: 0.8rem;
+    position: absolute;
+    border-radius: 15px;
+
+}
+
+.earning_right{
+    display: flex;
+    position: absolute;
+    right: 6rem;
+
+
+
+}
+
+.earning_hospital{
+
+}
+
+.earning_hospital:nth-child(2){
+    margin-left: 12rem;
+}
+
+.earning_label{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    padding: 1px;
+    padding-right: 2px;
+    border-color: #F0F6FE;
+    background-color: #fff;
+
+}
