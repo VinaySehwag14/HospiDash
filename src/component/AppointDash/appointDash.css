@@ -1,0 +1,117 @@
+.appointDash_{
+    border: 1px solid black;
+    -webkit-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    border-radius: 2%;
+
+}
+
+
+
+table {
+    width: 10rem;
+    flex: 1;
+    display: grid;
+    border-collapse: collapse;
+    grid-template-columns: 
+      minmax(150px, 1fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1fr);
+  }
+  
+  thead,
+  tbody,
+  tr {
+    display: contents;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  th {
+    position: sticky;
+    top: 0;
+    background: #F0F4FD;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #979FB6;
+    position: relative;
+  }
+  
+  th:last-child {
+    border: 0;
+  }
+  
+  .resize-handle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0;
+    cursor: col-resize;
+  }
+  
+  .resize-handle:hover,
+  .header--being-resized .resize-handle {
+    opacity: 0.5;
+  }
+  
+  th:hover .resize-handle {
+    opacity: 0.3;
+  }
+  
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #808080;
+  }
+  
+  tr:nth-child(even) td {
+    background: #f8f6ff;
+  }
+
+ 
+  .appointDash_span{
+    margin-left: 5px;
+  }
+
+  .appointDash_td_status{
+    border-radius: 1px;
+    text-align: center;
+  }
+
+
+  .appointDash_td_specialCa{
+    padding-left: 4rem;
+    font-size: 1.4rem;
+font-weight: 600;
+  }
+
+  .appointDash_patient{
+    color: #279AF1;
+  }
+
+  .appointDash_consult_span{
+    color: #29375F;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .appointDash_consult_td{
+    color: #29375F;
+font-weight: 500;
+  }

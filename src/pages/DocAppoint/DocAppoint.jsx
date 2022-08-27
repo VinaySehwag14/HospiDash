@@ -1,4 +1,5 @@
 import "./docAppoint.css";
+import AppointDash from "../../component/AppointDash/AppointDash";
 import Sidebar from "../../component/Sidebar/Sidebar";
 
 const DocAppoint = () => {
@@ -7,7 +8,7 @@ const DocAppoint = () => {
       <div className="docAppoint_sidebar">
         <Sidebar />
       </div>
-      <div>sdfsdddddddddddddddddddddddddddddddddddddddddddddddddddddddd</div>
+      <AppointDash />
     </div>
   );
 };
