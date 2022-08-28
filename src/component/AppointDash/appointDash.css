@@ -43,7 +43,6 @@ table {
   th,
   td {
     padding: 15px;
-    /* overflow: hidden; */
     text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -71,7 +70,6 @@ table {
   }
   
   .resize-handle {
-    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -99,6 +97,33 @@ table {
   .appointDash_td_status{
     border-radius: 1px;
     text-align: center;
+    margin-top: 13px;
+  }
+  .appointDash_td_Invo{
+    margin-top: 13px;
+  }
+  .appointDash_td_status_Invo_p{
+    background-color: #FFE0E0;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 21px;
+    color: red;
+  }
+
+  .appointDash_td_status_stat{
+    background-color: #F0F4FD;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 21px;
+    color: #29375F;
+  }
+
+  .appointDash_td_status_Invo{
+    background-color: #F0F4FD;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 21px;
+    color: #29375F;
   }
 
 
