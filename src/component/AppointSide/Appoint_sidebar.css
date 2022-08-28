@@ -1,29 +1,34 @@
-.sidebar{
+.appoint_sidebar{
     display: flex;
     flex-direction: column;
     background-color: #203765;
     width: 4rem;
-    height: 42rem;
-    padding-bottom: 42rem;
+    height: 70rem;
     justify-content: center;
     align-items: center;
 }
 
-.sidebar_icons{
+.appoint_sidebar_sidebar_icons{
     padding: 1rem;
 }
-.sidebar_icons_special{
-    padding: 0.8rem 1.2rem 1rem 0.5rem;
+.appoint_sidebar_sidebar_icons_special{
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
     background-color: rgba(255, 255, 255, 0.152);
 border-right:solid 8px rgb(255, 78, 78);
 }
 
 
-.upper{
+.appoint_sidebar_upper{
     display: flex;
     flex-direction: column;
     margin-bottom: 15rem;
 
+}
+
+.appoint_sidebar_icons_special{
+    padding: 0.8rem 1.2rem 1rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.152);
+border-right:solid 8px rgb(255, 78, 78);
 }
 
 .userImage{

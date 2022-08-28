@@ -1,62 +1,77 @@
 .appointDash_{
-    border: 1px solid black;
-    -webkit-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
-    -moz-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
-    box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    
     border-radius: 2%;
+    margin-bottom: 15rem;
 
 }
 
 
 
 table {
-    width: 10rem;
+  -webkit-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
+    box-shadow: -1px 3px 8px -3px rgba(0,0,0,0.5);
     flex: 1;
+    position: absolute;
+    bottom: -4rem;
+    left: 12rem;
+    width: 77rem;
     display: grid;
     border-collapse: collapse;
     grid-template-columns: 
-      minmax(150px, 1fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1fr);
+    minmax(101px, 0fr)
+    minmax(110px, 1.67fr)
+    minmax(150px, 1.67fr)
+    minmax(150px, 1.07fr)
+    minmax(120px, 1.67fr)
+    minmax(120px, 1.67fr)
+    minmax(120px, 1.67fr)
+    minmax(120px, 1.67fr)
+    minmax(90px, 1fr);
+    border-radius: 1rem 1rem 1rem 1rem;
   }
+
   
   thead,
   tbody,
   tr {
     display: contents;
+    border: 1px solid black;
+
   }
   
   th,
   td {
     padding: 15px;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-overflow: ellipsis;
     white-space: nowrap;
   }
   
   th {
-    position: sticky;
     top: 0;
     background: #F0F4FD;
     text-align: left;
     font-weight: 600;
     font-size: 1rem;
     color: #979FB6;
-    position: relative;
   }
   
   th:last-child {
     border: 0;
+    border-radius: 0rem 1rem 0rem 0rem;
+  }
+  th:first-child {
+    border-radius: 1rem 0rem 0rem 0rem;
+  }
+ 
+
+  .appointDash_consult_tr{
+    border-bottom: 1px solid black;
   }
   
   .resize-handle {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -65,19 +80,11 @@ table {
     cursor: col-resize;
   }
   
-  .resize-handle:hover,
-  .header--being-resized .resize-handle {
-    opacity: 0.5;
-  }
-  
-  th:hover .resize-handle {
-    opacity: 0.3;
-  }
-  
   td {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #808080;
+    border-bottom: 1px solid #808080;
   }
   
   tr:nth-child(even) td {

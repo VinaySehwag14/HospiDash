@@ -33,12 +33,12 @@ const AppointmentsQue = () => {
               </span>
             </span>
           </section>
-          {/* <span className="appointMid_users_Right">
-            <span>
-              <AccessTimeFilledIcon />
+          <span className="appointMid_users_Right">
+            <span className="appointMid_users_Right_accessTime">
+              <AccessTimeFilledIcon style={{ fontSize: 10 }} />
               <span>To be finalized</span>
             </span>
-          </span> */}
+          </span>
         </div>
       </div>
       <div className="appointMid">
@@ -61,12 +61,12 @@ const AppointmentsQue = () => {
               </span>
             </span>
           </section>
-          {/* <span className="appointMid_users_Right">
-            <span>
-              <AccessTimeFilledIcon />
-              <span>To be finalized</span>
+          <span className="appointMid_users_Right">
+            <span className="appointMid_users_Right_accessTime_wait">
+              <AccessTimeFilledIcon style={{ fontSize: 10 }} />
+              <span>Waiting • 40 min</span>
             </span>
-          </span> */}
+          </span>
         </div>
       </div>
       <div className="appointMid">
@@ -89,12 +89,12 @@ const AppointmentsQue = () => {
               </span>
             </span>
           </section>
-          {/* <span className="appointMid_users_Right">
-            <span>
-              <AccessTimeFilledIcon />
-              <span>To be finalized</span>
+          <span className="appointMid_users_Right">
+            <span className="appointMid_users_Right_accessTime_wait">
+              <AccessTimeFilledIcon style={{ fontSize: 10 }} />
+              <span>Waiting • 40 min</span>
             </span>
-          </span> */}
+          </span>
         </div>
       </div>
       <div className="appointMid">
@@ -108,23 +108,24 @@ const AppointmentsQue = () => {
               />
             </span>
             <span className="appointMid_users_data">
-              <span>Setia S</span>
+              <span>Kanhaiya</span>
               <span>
                 <span>
                   <ManIcon />
                 </span>
-                Video Consultantation • 2:20pm
+                Video Consultation • 2:20pm
               </span>
             </span>
-            {/* <span className="appointMid_users_Right">
-            <span>
-              <AccessTimeFilledIcon />
-              <span>To be finalized</span>
-              </span>
-            </span> */}
           </section>
+          <span className="appointMid_users_Right">
+            <span className="appointMid_users_Right_accessTime_wait">
+              <AccessTimeFilledIcon style={{ fontSize: 10 }} />
+              <span>Waiting • 40 min</span>
+            </span>
+          </span>
         </div>
       </div>
+
       <div className="appointLast">
         <p>View all Appointments →</p>
       </div>

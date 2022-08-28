@@ -1,9 +1,11 @@
 .chart{
-    margin-top: 5rem;
-    width: 52rem;
-    margin-left: 5rem;
-    border: 1px solid #A9A5BF;
-    position: absolute;
+  left: 9.5rem;
+  top: 61rem;
+  width: 49.5rem;
+  height: 30rem;
+  margin-bottom: 6rem;
+  border: 1px solid #A9A5BF;
+  /* position: absolute; */
 }
 
 .chartUpper_left_sec{

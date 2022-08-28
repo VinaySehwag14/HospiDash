@@ -1,4 +1,4 @@
-import "./sidebar.css";
+import "./Appoint_sidebar.css";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import GroupIcon from "@mui/icons-material/Group";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
@@ -7,40 +7,40 @@ import EventNoteIcon from "@mui/icons-material/EventNote";
 import SettingsIcon from "@mui/icons-material/Settings";
 import { Link } from "react-router-dom";
 
-const Sidebar = () => {
+const AppointSidebar = () => {
   return (
-    <div className="sidebar">
-      <div className="upper">
+    <div className="appoint_sidebar">
+      <div className="appoint_sidebar_upper">
         <Link to="/dashboard">
           <DashboardIcon
-            className="sidebar_icons_special"
+            className="appoint_sidebar_sidebar_icons"
             style={{ color: "#fff", fontSize: 30 }}
           />
         </Link>
         <GroupIcon
-          className="sidebar_icons"
+          className="appoint_sidebar_sidebar_icons"
           style={{ color: "#5F88D2", fontSize: 30 }}
         />
         <Link to="/appointments">
           <EventAvailableIcon
-            className="sidebar_icons"
+            className="appoint_sidebar_icons_special"
             style={{ color: "#5F88D2", fontSize: 30 }}
           />
         </Link>
         <PaidIcon
-          className="sidebar_icons"
+          className="appoint_sidebar_sidebar_icons"
           style={{ color: "#5F88D2", fontSize: 30 }}
         />
         <EventNoteIcon
-          className="sidebar_icons"
+          className="appoint_sidebar_sidebar_icons"
           style={{ color: "#5F88D2", fontSize: 30 }}
         />
         <SettingsIcon
-          className="sidebar_icons"
+          className="appoint_sidebar_sidebar_icons"
           style={{ color: "#5F88D2", fontSize: 30 }}
         />
       </div>
-      <div className="lower">
+      <div className="appoint_sidebar_lower">
         <img
           className="userImage"
           src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
@@ -51,4 +51,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default AppointSidebar;

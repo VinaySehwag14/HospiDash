@@ -15,9 +15,11 @@ const Schedule = () => {
         <div className="scheduleMid_Upper_container">
           <section className="scheduleMid_section">
             <p>Recieve</p>
-            <BoltIcon />
+            <BoltIcon style={{ fontSize: 20 }} />
             <p className="scheduleMid_section_para"> Anytime Consult</p>
-            <InfoIcon />
+            <InfoIcon
+              style={{ fontSize: 20, color: "grey", marginLeft: "5" }}
+            />
             <span className="schedule_toggle">
               <label className="switch">
                 <input type="checkbox" />

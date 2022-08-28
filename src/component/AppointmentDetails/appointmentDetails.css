@@ -1,10 +1,12 @@
 .appointmentDetails{
     display: flex;
-    padding-top: 2rem;
     padding-bottom: 2rem;
-    /* max-width: 50rem; */
-
-    background-color: #F0F6FE
+    padding-top: 3rem;
+    top: 8rem;
+    padding-right: 7rem;
+    position: absolute;
+    background-color: #F0F6FE;
+    border-radius: 0px 0px 11px 11px;
 }
 .appointInfo{
     margin-left: 5rem ;

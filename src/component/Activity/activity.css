@@ -5,6 +5,9 @@ background-color: #fff;
 width: 22rem; 
 height: 100vh;
 border-radius: 10px;
+border: 1px solid #F0F4FD;
+position: absolute;
+right: 1rem;
 }
 
 .activity_icon{

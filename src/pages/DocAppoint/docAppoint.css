@@ -1,6 +1,116 @@
-.docAppoint_sidebar{
-    /* height: 100vh; */
-}
-.docAppoint_sidebar{
+.docAppoint{
     position: relative;
+}
+
+.docAppoint_sidebar{
+    height: 100vh;
+}
+
+.docAppoint_searchbar{
+    position: absolute;
+    top: 8rem;
+    left: 13rem;
+    border-top: 1px solid red;
+    padding-right: 80px;
+    border-top: 1px solid #d6dae3;
+}
+
+.docAppoint_header{
+    margin-left: 13rem;
+    position: absolute;
+    top: 2rem;
+    display: flex;
+    /* border-bottom: 1px solid red; */
+
+}
+.docAppoint_header_span  > h1{
+    margin-bottom: 1.8rem;
+}
+
+.docAppoint_header_button{
+    margin-left: 54rem;
+    margin-top: 2.2rem;
+}
+
+.docAppoint_header_button > button{
+    border-color: #FC6964;
+    background-color: #ffff;
+    border-radius: 16px;
+    padding: 4px 22px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    left: 1rem;
+    color: #FC6964;
+}
+.docAppoint_header_button_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.docAppoint_header_button_icon_add{
+    margin-left: 10px;
+}
+
+.docAppoint_earning_label{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    padding: 1px;
+    padding-right: 2px;
+    border-color: #F0F6FE;
+    background-color: #fff;
+
+}
+
+.docAppoint_searchbar_login_form{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+.docAppoint_form_field{
+    border: 2px solid #F0F4FD;
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    padding: 8px 24px 11px 35px;
+    border-radius: 16px;
+}
+
+
+.docAppoint_form_field > input{
+    border: none;
+    font-size: 15px;
+}
+.docAppoint_form_field > span{
+   color: #e2e6ee;
+   margin-left: 2rem;
+}
+
+.docAppoint_form_input{
+    border: none;
+    padding: 3px 8em 0px 0px;
+}
+
+.doc_appoint_special{
+    padding: 8px 3px 6px 20px;
+    position: relative;
+}
+
+.doc_appoint_special_label{
+    position: absolute;
+    bottom: 35px;
+    left: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #29375F;
+}
+
+/* .docAppoint_searchbar_login_form > input{
+    border: none;
+} */
+.docAppoint_appoint_dash{
+    /* position: absolute; */
 }

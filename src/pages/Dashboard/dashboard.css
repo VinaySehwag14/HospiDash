@@ -3,8 +3,21 @@
     /* position: relative; */
 }
 
+.dashboard_chart{
+    position: absolute;
+    left: 9.5rem;
+  top: 61rem;
+}
+
 .dashboard_sidebar{
     height: 100vh;
+}
+
+.dashboard_appointments{
+    position: absolute;
+    display: flex;
+    top: 28rem;
+    left: 10rem;
 }
 
 
@@ -22,7 +35,7 @@
 
 .dashboard_activity{
     position: absolute;
-    top: 1rem;
+    top: 3rem;
     right: 3rem;
 }
 

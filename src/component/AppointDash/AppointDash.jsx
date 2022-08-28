@@ -97,7 +97,7 @@ const AppointDash = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr className="appointDash_consult_tr">
             <td className="appointDash_consult_td">2422532</td>
             <td>
               <p className="appointDash_patient">Risha Mahin</p>

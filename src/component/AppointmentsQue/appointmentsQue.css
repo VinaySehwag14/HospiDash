@@ -5,9 +5,10 @@
     background-color: #ffff;
     border: 1px solid #A9A5BF;
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute;
     top: 28rem;
-    left: 9.5rem;
+    left: 9.5rem; */
+    margin-right: 2rem;
 }
 
 .appointUpper{
@@ -74,6 +75,22 @@
 
 .appointMid_users_data > span:nth-child(2){
     margin-right: 2px;
+    font-size: 12px;
+}
+
+.appointMid_users_Right_accessTime{
+    font-size: 0.8rem;
+    padding: 1px 3px 1px 3px;
+    background-color: #FFE0E0;
+    border-radius: 11px;
+    color: #cd0606;
+}
+.appointMid_users_Right_accessTime_wait{
+    font-size: 0.8rem;
+    padding: 1px 3px 1px 3px;
+    background-color: #FFECCC;
+    border-radius: 11px;
+    color: #baaa8d;
 }
 .appointMid_users_Right{
     background-color: #fff;
