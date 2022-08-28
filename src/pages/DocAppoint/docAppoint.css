@@ -20,7 +20,6 @@
     position: absolute;
     top: 2rem;
     display: flex;
-    /* border-bottom: 1px solid red; */
 
 }
 .docAppoint_header_span  > h1{
@@ -108,9 +107,3 @@
     color: #29375F;
 }
 
-/* .docAppoint_searchbar_login_form > input{
-    border: none;
-} */
-.docAppoint_appoint_dash{
-    /* position: absolute; */
-}

@@ -1,19 +1,15 @@
 
-.dashboard{
-    /* position: relative; */
-}
-
-.dashboard_chart{
+.dashboard_chart {
     position: absolute;
     left: 9.5rem;
-  top: 61rem;
+    top: 61rem;
 }
 
-.dashboard_sidebar{
+.dashboard_sidebar {
     height: 100vh;
 }
 
-.dashboard_appointments{
+.dashboard_appointments {
     position: absolute;
     display: flex;
     top: 28rem;
@@ -22,22 +18,20 @@
 
 
 
-.dashboard_earnings{
+.dashboard_earnings {
     position: absolute;
     top: 9rem;
     left: 9.5rem;
-    z-index:15;
+    z-index: 15;
 }
-.dashboard_earnings_Earnings{
+
+.dashboard_earnings_Earnings {
     position: absolute;
 
 }
 
-.dashboard_activity{
+.dashboard_activity {
     position: absolute;
     top: 3rem;
     right: 3rem;
 }
-
-
-

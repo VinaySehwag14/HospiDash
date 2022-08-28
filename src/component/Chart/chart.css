@@ -5,7 +5,6 @@
   height: 30rem;
   margin-bottom: 6rem;
   border: 1px solid #A9A5BF;
-  /* position: absolute; */
 }
 
 .chartUpper_left_sec{
@@ -111,7 +110,6 @@
 
   .chartUpper_toggle_section{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
   }
 

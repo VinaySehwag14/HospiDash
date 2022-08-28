@@ -3,66 +3,6 @@ import VideocamIcon from "@mui/icons-material/Videocam";
 
 const AppointDash = () => {
   return (
-    // <div className="appointDash_">
-    //   <div className="appointDash_upper">
-    //     <span>ORDER ID</span>
-    //     <span>PATIENT</span>
-    //     <span>CONSULTATION</span>
-    //     <span>TEAM</span>
-    //     <span>DOCTOR</span>
-    //     <span>SLOT</span>
-    //     <span>STATUS</span>
-    //     <span>INVOICE</span>
-    //     <span>ACTION</span>
-    //   </div>
-    //   <div className="appointDash_lower">
-    //     <span>2422562</span>
-    //     <section className="appointDash_lower_sect">
-    //       <span className="appointDash_lower_sect_name_span">Risha Mahin</span>
-    //       <span>26, F</span>
-    //     </section>
-    //     <section className="appointDash_lower_sect">
-    //       <span className="appointDash_lower_sect_icon_span">
-    //         <VideocamIcon />
-    //         Video
-    //       </span>
-    //       <span>First Consultation</span>
-    //     </section>
-    //     <span>Medical Camp</span>
-    //     <span>Anil Kumar</span>
-    //     <section className="appointDash_lower_sect">
-    //       <span>July 3, 2021</span>
-    //       <span>8:53 AM</span>
-    //     </section>
-    //     <span className="appointDash_lower_sect_status">Cancelled</span>
-    //     <span className="appointDash_lower_sect_invoice">Refunded</span>
-    //     <span>⋮</span>
-    //   </div>
-    //   {/* <div className="appointDash_lower">
-    //     <span>2422562</span>
-    //     <section className="appointDash_lower_sect">
-    //       <span>Risha Mahin</span>
-    //       <span>26, F</span>
-    //     </section>
-    //     <section className="appointDash_lower_sect">
-    //       <span>
-    //         <VideocamIcon />
-    //         Video
-    //       </span>
-    //       <span>First Consultation</span>
-    //     </section>
-    //     <span>Medical Camp</span>
-    //     <span>Anil Kumar</span>
-    //     <section className="appointDash_lower_sect">
-    //       <span>July 3, 2021</span>
-    //       <span>8:53 AM</span>
-    //     </section>
-    //     <span>Cancelled</span>
-    //     <span>Refunded</span>
-    //     <span>Refunded</span>
-    //     <span>⋮</span>
-    //   </div> */}
-    // </div>
     <div className="appointDash_">
       <table>
         <thead>

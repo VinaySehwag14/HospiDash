@@ -5,9 +5,6 @@
     background-color: #ffff;
     border: 1px solid #A9A5BF;
     border-radius: 10px;
-    /* position: absolute;
-    top: 28rem;
-    left: 9.5rem; */
     margin-right: 2rem;
 }
 
@@ -69,9 +66,7 @@
 
 }
 
-.appointMid_users_data:nth-child(4){
 
-}
 
 .appointMid_users_data > span:nth-child(2){
     margin-right: 2px;

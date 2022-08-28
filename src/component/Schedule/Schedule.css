@@ -5,9 +5,7 @@
     background-color: #ffff;
     border: 1px solid #A9A5BF;
     border-radius: 10px;
-    /* position: absolute;
-    top: 28rem;
-    right: 36rem; */
+   
 
 }
 
@@ -61,10 +59,6 @@
     border-radius: 50%;
   }
   
-  input:checked + .slider {
-    /* color: #2ab934;
-    background-color: #2ab934; */
-  }
   
   input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
@@ -126,9 +120,6 @@
     padding-bottom: 5px;
   }
 
-  .scheduleMid_section_para{
-    /* margin-right: 0.8rem; */
-  }
 
   .schedule_toggle{
     margin-left: 5rem;

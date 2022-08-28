@@ -1,6 +1,5 @@
 import "./docAppoint.css";
 import AppointDash from "../../component/AppointDash/AppointDash";
-import Sidebar from "../../component/Sidebar/Sidebar";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import SearchIcon from "@mui/icons-material/Search";
 import AppointSidebar from "../../component/AppointSide/Appoint_sidebar";
